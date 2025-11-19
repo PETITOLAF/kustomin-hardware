@@ -1,0 +1,6 @@
+Notes importantes:
+- Ce projet utilise l'API Stripe via requêtes serveur (curl). Renseigne STRIPE_SECRET_KEY dans config.php.
+- L'envoi d'email utilise la fonction PHP mail(). ByetHost supporte l'envoi d'emails mais vérifie quotas et configuration.
+- En production, sécurise config.php (permissions) et utilise HTTPS.
+- Les commandes sont envoyées par email aux adresses indiquées dans config.php.
+- Le calcul des prix = somme(prix composants) * 1.15 (soit +15%).

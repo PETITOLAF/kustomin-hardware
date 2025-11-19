@@ -1,0 +1,66 @@
+{
+  "components": {
+    "Intel i5": 170,
+    "Intel i7": 320,
+    "Ryzen 5": 180,
+    "Ryzen 7": 340,
+    "Intel LGA1200": 120,
+    "Intel LGA1700": 140,
+    "AM4": 110,
+    "AM5": 150,
+    "DDR4 16Go": 60,
+    "DDR5 16Go": 110,
+    "RTX 4060": 320,
+    "RTX 4070": 600,
+    "SSD 1To": 90,
+    "HDD 2To": 60,
+    "Alim 650W": 80,
+    "Boitier ATX": 70
+  },
+  "premades": {
+    "PC Gamer Budget": {
+      "components": [
+        "Ryzen 5",
+        "AM4",
+        "DDR4 16Go",
+        "RTX 4060",
+        "SSD 1To",
+        "Alim 650W",
+        "Boitier ATX"
+      ]
+    },
+    "PC Gamer Intermédiaire": {
+      "components": [
+        "Ryzen 7",
+        "AM5",
+        "DDR5 16Go",
+        "RTX 4070",
+        "SSD 1To",
+        "Alim 650W",
+        "Boitier ATX"
+      ]
+    },
+    "PC Creator": {
+      "components": [
+        "Intel i7",
+        "Intel LGA1700",
+        "DDR5 16Go",
+        "RTX 4070",
+        "SSD 1To",
+        "Alim 650W",
+        "Boitier ATX"
+      ]
+    },
+    "PC Ultra Gamer": {
+      "components": [
+        "Intel i7",
+        "Intel LGA1700",
+        "DDR5 16Go",
+        "RTX 4070",
+        "SSD 1To",
+        "Alim 650W",
+        "Boitier ATX"
+      ]
+    }
+  }
+}
