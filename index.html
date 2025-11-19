@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kustomin Hardware</title>
+  <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Kustomin <span>Hardware</span></div>
+    <nav>
+      <a href="#premontes">Pré-montés</a>
+      <a href="#configurateur">Configurateur</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="premontes">
+      <h2>PC Pré-montés</h2>
+      <div id="premadeGrid" class="grid"></div>
+    </section>
+
+    <section id="configurateur">
+      <h2>Configurateur</h2>
+      <form id="configForm" onsubmit="return false;">
+        <div class="row">
+          <label>Processeur (CPU)</label>
+          <select id="cpu"></select>
+        </div>
+        <div class="row">
+          <label>Carte mère</label>
+          <select id="mobo"></select>
+        </div>
+        <div class="row">
+          <label>RAM</label>
+          <select id="ram"></select>
+        </div>
+        <div class="row">
+          <label>Carte graphique</label>
+          <select id="gpu"></select>
+        </div>
+        <div class="actions">
+          <button type="button" id="checkBtn">Vérifier</button>
+          <button type="button" id="priceBtn">Calculer & Commander</button>
+        </div>
+      </form>
+      <div id="compatResult" class="result"></div>
+      <div id="priceResult" class="result"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Pour assistance : <a href="mailto:frozekujo@gmail.com">frozekujo@gmail.com</a></p>
+    </section>
+  </main>
+
+  <script src="/public/client.js"></script>
+</body>
+</html>
